@@ -1,0 +1,220 @@
+﻿
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/angular.min.js"></script>
+<script src="~/Scripts/angular-base64-upload.js"></script>
+<script src="~/Scripts/FileUpload.js"></script>
+<script src="~/Scripts/JSModule.js"></script> ,
+<script src="~/Scripts/JSController.js"></script> ,
+<script src="~/Scripts/JSService.js"></script>
+
+<script language="javascript">
+    function toggle() {
+        var ele = document.getElementById("toggleBooks");
+        var text = document.getElementById("displayBooks");
+        if (ele.style.display == "block") {
+            ele.style.display = "none";
+            text.innerHTML = "AddBook";
+        }
+        else {
+            ele.style.display = "block";
+            text.innerHTML = "Hide";
+        }
+    }
+    function hide() {
+        var sub = document.getElementById("toggleBooks");
+        var text = document.getElementById("displayBooks");
+        sub.style.display = "none"
+        text.innerHTML = "AddBook";
+
+    }
+</script>
+
+
+<style>
+    /*убрали стрелочки с намберов*/
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+
+    body {
+        background-image: url('../../Content/bkgrnd.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+</style>
+
+<body>
+    <div ng-app="ngmodule">
+        <div ng-controller="ngcontroller">
+            <div>
+                <br>
+                <table>
+                    <tr>
+                        <td width="30%"><button type="submit" class="btn btn-success" id="displayBooks" onClick="toggle()">AddBook</button></td>
+                        <td width="30%">
+                            <div class="input-group">
+                                <span class="input-group-addon">Search By:</span>
+                                <select ng-model="SelectedCriteria" ng-options="S for S in Selectors" class="form-control" ng-change="getFilteredData()"></select>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="text" ng-model="filterValue" class="form-control" ng-change="getFilteredData();reloadData()" placeholder="Search.." />
+                        </td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+
+
+            <div id="toggleBooks" class="col-md-12" hidden="hidden">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Add Book</h2>
+                    </div>
+                    <div class="panel-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Author</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" ng-model="bookAuthor"  id="Author"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputTitle" class="col-sm-2 control-label">Title</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" ng-model="bookTitle" placeholder="Title"  id="Title"/>
+                                            </div>
+                                            <br>
+                                            <label for="inputYear" class="col-sm-2 control-label">Year</label>
+                                            <div class="col-sm-10">
+                                                <input type="number" class="form-control" ng-model="Year" placeholder="1900" id="Year" />
+                                            </div>
+                                            <label for="inputGenre" class="col-sm-2 control-label">Genre</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" ng-model="Genre" placeholder="Dramma " id="Genre"/>
+                                            </div>
+                                            <label for="inputPrice" class="col-sm-2 control-label">Price</label>
+                                            <div class="col-sm-10">
+                                                <input type="number" step="any" class="form-control" ng-model="Price" placeholder="0.00" id="Price" />
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td style="width:60%" valign="top">
+                                        <div class="form-group">
+                                            <label for="inputAnnotation" class="col-sm-2 control-label">Annotation</label>
+                                            <textarea class="form-control" ng-model="Annotation" id="Annotation"></textarea>
+                                        </div>
+                                        <label for="file" class="col-sm-2 control-label">Upload Image:</label>
+                                        <input type="file" ng-model="Image" name="file" base-sixty-four-input required onload="onLoad" maxsize="500" accept="image" id="Image">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button type="submit" class="btn btn-default" value="Save" ng-click="Addbook();resetImportValues()" onclick="hide()">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Books</h2>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-hover" cellpadding="0" cellspacing="8" border="0">
+                                <tbody>
+                                    <tr ng-repeat="book in Books" style="width:20%">
+                                        <td valign="middle" align="center">
+                                            <br>
+                                            <a>
+                                        <img ng-src="data:image/JPG;base64,{{book.Image}}" height="200" width="142">
+                                        <br>
+                                        <strong>{{book.Author}}<br></strong>{{book.Title}}
+                                        </a>
+                                        <p>
+                                            </td>
+                                        <td hidden="hidden">{{book.Id}}</td>
+                                        <td valign="top" style="width:80%">
+                                            <span> {{book.Annotation}}</span>
+                                            <br>
+                                            <span type="submit" ng-click="delete(book)" class="btn btn-danger">Delete</span>
+                                            <span type="submit" ng-model="$scope.edbook" ng-click="edit(Books[$index])" class="btn btn-info" data-toggle="modal" data-target="#myModal">Update</span>
+                                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="vertical-alignment-helper">
+                                                    <div class="modal-dialog vertical-align-center">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">
+                                                                    <span aria-hidden="true">&times;</span><span class="sr-only" ng-click="clear()">Close</span>
+                                                                </button>
+                                                                <h4 class="modal-title" id="myModalLabel">{{edbook.Title}}</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="row-fluid" >
+                                                                    <div class="span12">
+                                                                        <label for="Title">Title</label>
+                                                                        <input type="text" class="form-control" ng-model="edbook.Title"  />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-xs-5">
+                                                                        <label for="author">Author</label>
+                                                                        <input type="text" class="form-control" ng-model="edbook.Author" />
+                                                                        <br />
+                                                                    </div>
+                                                                    <div class="col-xs-5">
+                                                                        <label for="year">Year</label>
+                                                                        <input type="number" class="form-control" ng-model="edbook.Year" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-xs-5">
+                                                                        <label for="genre">Genre</label>
+                                                                        <input type="text" class="form-control" ng-model="edbook.Genre" />
+                                                                    </div>
+                                                                    <div class="col-xs-5">
+                                                                        <label for="price">Price</label>
+                                                                        <input type="number" class="form-control" ng-model="edbook.Price" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-xs-12">
+                                                                        <label for="annotation">Annotation</label>
+                                                                        <textarea class="form-control" ng-model="edbook.Annotation"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                             </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" ng-click="clear()" data-dismiss="modal">Cancel</button>
+                                                                    <button type="button" class="btn btn-primary" ng-click="update()" data-dismiss="modal">Update</button>
+                                                                </div>
+                                                            </div>
+                                                                </div>
+                                                            </div>
+                                            </div>
+                                        </td>
+                                     <tr>
+                                        <td style="padding: 8px; background-color: #eee;" colspan="4" align'="center'"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <span>{{Message}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+

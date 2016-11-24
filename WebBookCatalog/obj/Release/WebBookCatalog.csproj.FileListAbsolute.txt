@@ -1,0 +1,159 @@
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\ApplicationInsights.config
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\csc.exe
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\System.Collections.Immutable.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\vbc.exe
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\VBCSCompiler.exe
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\roslyn\VBCSCompiler.exe.config
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\WebBookCatalog.dll.config
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\WebBookCatalog.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\WebBookCatalog.pdb
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Antlr3.Runtime.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\EntityFramework.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\EntityFramework.SqlServer.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.Agent.Intercept.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.DependencyCollector.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.Web.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.WindowsServer.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.ApplicationInsights.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.Core.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.Cookies.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.Facebook.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.Google.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.OAuth.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.Twitter.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Web.Infrastructure.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Newtonsoft.Json.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Owin.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Net.Http.Formatting.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Helpers.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.Owin.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.WebHost.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Mvc.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Optimization.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Razor.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.Deployment.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.Razor.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\WebGrease.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.DependencyCollector.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.Web.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.WindowsServer.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.ApplicationInsights.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Newtonsoft.Json.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Net.Http.Formatting.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Helpers.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.WebHost.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Mvc.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Optimization.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Razor.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.Deployment.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.Razor.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Antlr3.Runtime.pdb
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\EntityFramework.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\EntityFramework.SqlServer.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.Core.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.Facebook.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.Cookies.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.OAuth.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.Google.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.Twitter.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.Owin.xml
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\obj\Release\WebBookCatalog.Migrations.Initial.resources
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\obj\Release\WebBookCatalog.csproj.GenerateResource.Cache
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\obj\Release\WebBookCatalog.dll
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\obj\Release\WebBookCatalog.pdb
+D:\WebBookCatalog\WebBookCatalog\WebBookCatalog\obj\Release\WebBookCatalog.Migrations.Initial1.resources
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\ApplicationInsights.config
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\csc.exe
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\vbc.exe
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\VBCSCompiler.exe
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\WebBookCatalog.dll.config
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\WebBookCatalog.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\WebBookCatalog.pdb
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Antlr3.Runtime.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\EntityFramework.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\EntityFramework.SqlServer.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.Web.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Newtonsoft.Json.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Owin.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Net.Http.Formatting.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Helpers.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.WebHost.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Mvc.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Optimization.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Razor.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.Razor.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\WebGrease.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.Web.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Newtonsoft.Json.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Net.Http.Formatting.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Helpers.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Http.WebHost.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Mvc.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Optimization.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.Razor.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\System.Web.WebPages.Razor.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Antlr3.Runtime.pdb
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\EntityFramework.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\EntityFramework.SqlServer.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\obj\Release\WebBookCatalog.dll
+C:\Users\sstepovyi.IMB\Documents\Visual Studio 2015\Projects\WebBookCatalog\WebBookCatalog\obj\Release\WebBookCatalog.pdb
